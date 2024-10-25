@@ -1,0 +1,18 @@
+{
+  "name": "project-6-hiphop-dance-academy",
+  "version": "1.0.0",
+  "description": "It is the website of the dance academy.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hamza",
+  "license": "ISC",
+  "dependencies": {
+    "body": "^5.1.0",
+    "express": "^4.21.0",
+    "mongoose": "^8.6.3",
+    "parser": "^0.1.4",
+    "pug": "^3.0.3"
+  }
+}

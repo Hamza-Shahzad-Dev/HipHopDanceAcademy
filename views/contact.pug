@@ -1,0 +1,27 @@
+extends base.pug
+block script 
+    script(src="../static/index.js")
+block style
+    style
+        include ../static/style.css
+        include ../static/styleContact.css
+block content
+    nav#navbar 
+        ul
+            div#logo 
+                img(src="../static/LogoImages/Logo1.png", alt="Logo")
+            li #[a(href='/') Home]
+            li #[a(href='/about') About Us]
+            li #[a(href='/services') Services]
+            li #[a(href='/contact') Contact Us]
+            li #[a(href='/signIn') Sign In]
+    div.contact
+        h1 Contact Us
+        form.form_Group(action='/contact', method='post')
+            input(type="text", name='name', class='my_Input', placeholder='Enter your name')
+            input(type="text", name='father_Name', class='my_Input', placeholder='Enter your father name')
+            input(type="number", name='age', class='my_Input', placeholder='Enter your age')
+            input(type="text", name='gender', class='my_Input', placeholder='Enter your gender')
+            input(type="email", name='email', class='my_Input', placeholder='Enter your email')
+            input(type="number", name='phone_Number', class='my_Input', placeholder='Enter your phone number')
+            input(type="submit", name='submit', class='btn', value='Submit')

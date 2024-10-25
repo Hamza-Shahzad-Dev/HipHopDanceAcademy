@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', sans-serif;
+    font-family: 'Dancing Script', cursive;
+}
+
+body {
+    background: url(../static/BackgroundsImages/SignInBg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    /* border: 2px solid green; */
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 30%;
+}
+
+.container h1 {
+    border-bottom: 2px solid purple;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    /* display: block; */
+    /* width: 50%; */
+    /* margin: auto; */
+}
+
+.box {
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: 50px auto;
+    padding: 15px;
+    
+}
+
+.box input {
+    width: 94.5%;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 30px;
+    background: none;
+    border-bottom: 2px solid purple;
+}
+
+.box input::placeholder {
+    padding: 10px;
+}
+
+.btn {
+    cursor: pointer;
+    outline: none;
+    border: 2px solid black;
+    width: 20%;
+    display: block;
+    margin: auto;
+    font-size: 17px;
+    border-radius: 20px;
+    color: beige;
+    background-color: black;
+    padding: 10px 5px;
+    border: 2px solid purple;
+}
+
+.btn:hover {
+    background-color: purple;
+    border: 2px solid black;
+    color: black;
+}
+
+.box i {
+    margin-right: 10px;
+    width: 5px;
+}

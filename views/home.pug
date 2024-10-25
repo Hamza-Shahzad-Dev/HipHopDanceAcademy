@@ -1,0 +1,60 @@
+extends base.pug
+block script 
+    script(src="../static/index.js")
+block style
+    style 
+        include ../static/style.css
+block content
+    nav#navbar
+        ul
+            div#logo
+                img(src="../static/LogoImages/Logo1.png", alt="Logo")
+            li #[a(href="/") Home]
+            li #[a(href="/about") About Us]
+            li #[a(href="/services") Services]
+            li #[a(href="/contact") Contact Us]
+            li #[a(href="/signin") Sign In]
+    section#intro_Section 
+        h1#intro_h1 Step into the Rhythm Where Passion and Precision Meet
+        p#intro_para Welcome to HipHop Dance Academy, where the art of dance transforms lives. With a vibrant community of dancers, instructors, and enthusiasts, we invite you to embark on a journey of self-expression, growth, and connection. At our academy, we believe that every movement has the power to tell a story, and every dancer has the potential to shine. Whether you're a beginner or a seasoned performer refining your craft, our world-class faculty and supportive environment are here to guide you. Join us as we celebrate the joy of movement and the beauty of dance. Let's step into the rhythm together and discover the magic that happens when passion and precision meet.
+        input.btn(type="button" value="Sign In")
+    section#pictures
+        h2#pictures_h2 Unleash Your Rhythm Your One-Stop Destination for Dance Delights!
+        div.container 
+            div.box 
+                div.card
+                    h3 Online Dance Classes:
+                    p#pictures_Para "Welcome to our platform! Dive into the world of dance with our comprehensive online tutorials. Whether you're a beginner or an experienced dancer, our tutorials cater to all skill levels. From the comfort of your own home, access a variety of dance styles taught by expert instructors. Explore our library of instructional videos and start mastering your moves today!"
+                    input.btn#watch(type="button" value="Watch")
+                div.img 
+                    img(src="../static/CardsImages/Img1.png", alt="Online Tutorials")
+            div.box#left_Box 
+                div.card
+                    h3 Dance Fitness Programs:
+                    p#pictures_Para "Experience the joy of movement while achieving your fitness goals with our dynamic Dance Fitness Program. Whether you're seeking to improve endurance, flexibility, or just have fun, our expert instructors will guide you through exhilarating routines that leave you feeling energized and empowered. Join us today and dance your way to a healthier, happier you!"
+                    input.btn#watch(type="button" value="Apply")
+                div.img 
+                    img(src="../static/CardsImages/Img2.png", alt="Dance To Be Fit")
+            div.box 
+                div.card
+                    h3 Online Dance Competitions:
+                    p#pictures_Para "Step onto the virtual stage and showcase your talent in our Online Dance Competition! Whether you're a solo performer or part of a group, our platform welcomes dancers of all styles and levels. Compete for exciting prizes, receive valuable feedback from our expert judges, and connect with a global community of dancers. Don't miss your chance to shine – register now and let your moves take center stage!"
+                    input.btn#watch(type="button" value="Resgister")
+                div.img 
+                    img(src="../static/CardsImages/Img3.png", alt="Competition")
+            div.box#left_Box 
+                div.card
+                    h3 Community Forums or Discussion Boards:
+                    p#pictures_Para "Join the conversation in our vibrant Community Forum! Connect with dancers from around the world to share experiences, seek advice, and celebrate your passion for dance. Whether you're a beginner looking for tips or a seasoned pro offering insights, our inclusive platform welcomes dancers of all backgrounds and styles. Dive into discussions, ask questions, and forge lasting connections with like-minded enthusiasts. Join our community today and let's dance together!"
+                    input.btn#watch(type="button" value="Notify Me")
+                div.img 
+                    img(src="../static/CardsImages/Img4.png", alt="Community Forums")
+    section#sponsors
+        h2#sponsors_h2 Our Sponsors
+        div.sponsors_Image 
+            img(src="../static/SponsorsImages/C1bg.png", alt="Instagram")
+            img(src="../static/SponsorsImages/C2bg.png", alt="Skype")
+            img(src="../static/SponsorsImages/C5bg.png", alt="Snapchat")
+            img(src="../static/SponsorsImages/C3bg.png", alt="Chrome")
+            img(src="../static/SponsorsImages/C4bg.png", alt="Whatsapp")
+        p#sponsors_Para We're thrilled to announce our latest sponsors for our dance website! Thanks to the generous support of Instagram, Snapchat, WhatsApp, Chrome, and Skype, we're able to continue bringing you the latest dance trends, tutorials, and inspiration. These leading companies have recognized the importance of fostering creativity and expression in the world of dance, and we're proud to partner with them in our mission to support dancers worldwide. But that's not all – our sponsors are not only invested in our online platform but also in the development of young talent in dance. Together, we organize events aimed at nurturing the next generation of dancers, providing opportunities for growth, learning, and collaboration. With the support of these forward-thinking sponsors, we're excited to embark on this journey of dance discovery and empowerment. Join us as we dance into the future!
